@@ -1,0 +1,337 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d3fbe475-aeee-4c54-a680-5225be73458d")
+	(paper "A4")
+	(lib_symbols)
+	(junction
+		(at 111.76 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a000d79-9099-4ac9-b9d7-015aa7c3b1b7")
+	)
+	(wire
+		(pts
+			(xy 149.86 105.41) (xy 162.56 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6851423b-fa2c-4410-8b59-7236c783b802")
+	)
+	(wire
+		(pts
+			(xy 109.22 99.06) (xy 111.76 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77eeaca6-f801-466f-9197-ad75f0424242")
+	)
+	(wire
+		(pts
+			(xy 111.76 99.06) (xy 130.81 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8179010c-12a2-4f46-9b86-54ca32ca46c5")
+	)
+	(wire
+		(pts
+			(xy 80.01 99.06) (xy 87.63 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0a6eb65-4134-42a3-80d2-4a902e8148fb")
+	)
+	(wire
+		(pts
+			(xy 80.01 105.41) (xy 87.63 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4f43aea-e413-41b1-be16-1fcd55983ccd")
+	)
+	(label "AC{slash}N"
+		(at 80.01 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c262b733-b66d-4afd-9e3d-6aed93070f8e")
+	)
+	(label "AC{slash}L"
+		(at 80.01 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd00648d-96cb-459c-8aad-21ec736a87b5")
+	)
+	(sheet
+		(at 130.81 95.25)
+		(size 19.05 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "29fb8a40-f982-4f60-b452-4eca20729029")
+		(property "Sheetname" "DC-DC Converter"
+			(at 130.81 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dc_dc_converter.kicad_sch"
+			(at 130.81 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "V_OUT(3.8V)" output
+			(at 149.86 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "78034a5f-f879-44ad-98f3-c09da7a356f5")
+		)
+		(pin "V_IN(12V)" input
+			(at 130.81 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dd4e0f9a-2597-4c51-a622-f49a17067437")
+		)
+		(instances
+			(project "SIMCOM_A7602E"
+				(path "/d3fbe475-aeee-4c54-a680-5225be73458d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 95.25)
+		(size 24.13 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4d7035ab-3cfb-457b-9992-6117c20ee44e")
+		(property "Sheetname" "AC-DC Converter"
+			(at 87.63 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ac_dc_converter.kicad_sch"
+			(at 87.63 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "AC{slash}N" input
+			(at 87.63 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "afc233ee-45f5-40e1-ab6a-3e827ad5bdc3")
+		)
+		(pin "AC{slash}L" input
+			(at 87.63 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "32f8145b-2179-4e02-8edf-e521a7dd57ab")
+		)
+		(pin "V_OUT(12V)" output
+			(at 111.76 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8f12176e-43a6-494b-8d3a-720a5c7f96f7")
+		)
+		(instances
+			(project "SIMCOM_A7602E"
+				(path "/d3fbe475-aeee-4c54-a680-5225be73458d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 162.56 83.82)
+		(size 19.05 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "64935481-b83d-4603-ae7f-8c7391b64b16")
+		(property "Sheetname" "USB"
+			(at 162.56 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 162.56 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "SIMCOM_A7602E"
+				(path "/d3fbe475-aeee-4c54-a680-5225be73458d"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 162.56 102.87)
+		(size 22.86 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b3d38e1f-dd3c-4a59-8044-fbd41ec18309")
+		(property "Sheetname" "Router"
+			(at 162.56 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "router.kicad_sch"
+			(at 162.56 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "USB_VBUS" input
+			(at 185.42 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8a6d54e1-f809-4f23-af65-9a2f2be2ca7e")
+		)
+		(pin "USB_DN" input
+			(at 185.42 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d390cbd1-5df1-4819-b96f-97bc6e7bf602")
+		)
+		(pin "USB_DP" input
+			(at 185.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "872d3602-740e-4530-a554-1911bab698a6")
+		)
+		(pin "VCC(3.8V)" input
+			(at 162.56 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cdfae8e4-83ba-4131-8a84-7ad959cd3f7c")
+		)
+		(instances
+			(project "SIMCOM_A7602E"
+				(path "/d3fbe475-aeee-4c54-a680-5225be73458d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

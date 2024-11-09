@@ -1,0 +1,68 @@
+**/*-backups/
+
+# ChatGPT generated .gitignore for KiCad
+# Ignore backup files and autosave files
+*.bak
+*.b#*
+*.kicad_prl
+*.kicad_bak
+
+# Ignore simulation files
+*.cir
+*.raw
+*.log
+*.opj
+
+# Ignore output and temporary files
+*.tmp
+*.dcm
+*.dsn
+*.net
+*.out
+*.xml
+*.wrl
+
+# Ignore KiCad 3D viewer cache
+*.step
+*.stp
+fp-info-cache
+
+# Ignore library tables and environment files (optional)
+sym-lib-table
+fp-lib-table
+env
+
+# Ignore KiCad PCBnew cache files
+*-cache.lib
+*-cache.lib.bak
+
+# Ignore KiCad 6 and later schematic and PCB backups
+*-backup.kicad_sch
+*-backup.kicad_pcb
+
+# Ignore Gerber and manufacturing outputs
+*.gbr
+*.gbo
+*.gbp
+*.gbd
+*.drl
+*.gbl
+*.gbs
+*.gtl
+*.gto
+*.gtp
+*.gts
+*.map
+*.rpt
+*.g*.[0-9]*
+
+# Ignore directories with export files
+*/gerber/
+*/manufacturing/
+*/export/
+
+# Ignore personal preferences and system files
+*.DS_Store
+*.directory
+Thumbs.db
+
